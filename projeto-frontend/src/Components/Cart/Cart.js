@@ -1,11 +1,12 @@
 import React from "react";
+import { CartContainer } from "./Styled";
 
 const Cart = () => {
-    return (
-      <div>
+  return (
+    <CartContainer>
         Cart
-      </div>
-    );
-  }
-  
-  export default Cart;
+    </CartContainer>
+  );
+};
+
+export default Cart;
