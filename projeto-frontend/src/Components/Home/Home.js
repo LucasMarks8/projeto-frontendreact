@@ -1,11 +1,13 @@
 import React from "react";
+import CardProduct from "../CardProduct/CardProduct";
+import { HomeContainer } from "./Styled";
 
 
 const Home = () => {
     return (
-      <div>
-        hOME
-      </div>
+      <HomeContainer>
+        <CardProduct />
+      </HomeContainer>
     );
   }
   
